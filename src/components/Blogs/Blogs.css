@@ -1,4 +1,14 @@
+
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    
+}
+
+.ans{
+    border: 1px solid lightgray;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 5px;
 }

@@ -1,8 +1,9 @@
 import React from 'react'
+import './Login.css'
 
 const Login = () => {
   return (
-    <div>
+    <div className='footer-style'>
         <h2>This is Login</h2>
     </div>
   )
