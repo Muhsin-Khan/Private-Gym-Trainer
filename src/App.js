@@ -14,14 +14,14 @@ import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
 
 
-const auth = getAuth(app);
+
 
 function App() {
   return (
     <div>
       <Header></Header>
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<About></About>}></Route>

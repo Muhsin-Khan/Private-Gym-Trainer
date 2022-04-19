@@ -4,7 +4,7 @@ import Services from '../Services/Services'
 
 const Home = () => {
   return (
-    <div className='footer-style'><h2>This is home...</h2>
+    <div className='footer-style'>
     <Banner></Banner>
     <Services></Services>
     </div>
