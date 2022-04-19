@@ -1,6 +1,6 @@
 # Private Gym Trainer
 
-This the Live Site's Link [Create React App](https://celadon-malabi-7b7de1.netlify.app/).
+This the Live Site's Link [Private Gym Trainer](https://celadon-malabi-7b7de1.netlify.app/).
 
 -----
 - This is a Private Gym Trainer's Webseit.
