@@ -11,8 +11,10 @@ const Services = () => {
         .then(data => setServices(data));
     },[])
   return (
-    <div className="footer-style">
-      <h2>These are my Services:{services.length}</h2>
+    <div>
+      <h2 className="services-title">My Services</h2>
+      <div className="footer-style services">
+      
       {
         services.map(service => <Service
         key={service.id}
@@ -21,6 +23,7 @@ const Services = () => {
 
         </Service>)
       }
+    </div>
     </div>
   );
 };

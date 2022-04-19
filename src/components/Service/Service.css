@@ -1,7 +1,9 @@
-.service{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.service img{
+
+img{
     width: 400px;
+}
+.service{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
