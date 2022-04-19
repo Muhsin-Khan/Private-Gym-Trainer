@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Service from "../Service/Service";
 import "./Services.css";
 
 const Services = () => {
@@ -12,6 +13,14 @@ const Services = () => {
   return (
     <div className="footer-style">
       <h2>These are my Services:{services.length}</h2>
+      {
+        services.map(service => <Service
+        key={service.id}
+        service={service}
+        >
+
+        </Service>)
+      }
     </div>
   );
 };
