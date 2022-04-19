@@ -11,6 +11,7 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Signup from './components/Sign Up/Signup';
 import Services from './components/Services/Services';
+import NotFound from './components/NotFound/NotFound';
 
 
 const auth = getAuth(app);
@@ -26,6 +27,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
       
