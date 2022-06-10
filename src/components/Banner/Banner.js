@@ -4,6 +4,7 @@ import banner1 from '../../images/Banner/1.jpg'
 import banner2 from '../../images/Banner/2.jpg'
 import banner3 from '../../images/Banner/3.jpg'
 
+// functionality starts...
 const Banner = () => {
   const [index, setIndex] = useState(0);
 
